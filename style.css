@@ -1,0 +1,129 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+   
+  }
+  
+  .logo {
+    color: var(--color-white);
+    font-size: 30px;
+  }
+
+  .menu__bar {  
+    background-color: var(--color-black);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  
+    position: relative;
+  }
+  
+  .menu__bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu__bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .menu__bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.5s;
+  }
+  
+  .menu__bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 5px;
+    padding-top: 3px;
+  }
+  
+  /* dropdown menu style */
+  .dropdown__menu {
+    display: none;
+  }
+  
+  .menu__bar ul li:hover .dropdown__menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  
+  .menu__bar ul li:hover .dropdown__menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu__bar ul li:hover .dropdown__menu ul li {
+    width: 200px;
+    padding: 0px;
+  }
+  
+  .dropdown__menu__1 {
+    display: none;
+  }
+  
+  .dropdown__menu ul li:hover .dropdown__menu__1 {
+    display: block;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+ .img-1650pny{
+   width: 500px;
+   height: 400px;
+   background-image: url(Pic/1650pny4gb.jpg);
+   background-size:90%;
+background-repeat: no-repeat;
+   background-position: right;
+   object-fit: cover;
+ }
+ .img-i514600k{
+    width: 500px;
+   height: 400px;
+   background-image: url(Pic/i514600k.jpg);
+   background-size:90%;
+background-repeat: no-repeat;
+   background-position: right;
+   object-fit: cover;
+ }
+ .img-FURYDDR54800{
+  width: 500px;
+   height: 400px;
+   background-image: url(Pic/FuryDDR54800.jpg);
+   background-size:90%;
+background-repeat: no-repeat;
+   background-position: center;
+   object-fit: cover;
+ }
+ 
+  
